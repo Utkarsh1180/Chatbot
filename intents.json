@@ -1,0 +1,92 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hey", "hello", "yo", "sup", "whats up", "heyy", "hlo", "heyy bro"],
+      "responses": ["Heyyy 👋", "Yo! How’s it going?", "Hey there! 😊", "Sup! What’s on your mind?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "cya", "talk later", "see ya"],
+      "responses": ["Peace out ✌️", "Catch ya later 👋", "Bye bye, take care!", "Laterrr! 😎"]
+    },
+    {
+      "tag": "sad",
+      "patterns": ["i am sad", "feeling low", "i m unhappy", "not feeling good", "depressed", "i'm down", "i feel empty"],
+      "responses": [
+        "Wanna talk about it? I'm here 💛",
+        "It's okay not to be okay. Spill it if you feel like.",
+        "Sending virtual hugs 🤗 You’re not alone.",
+        "Let’s talk. What’s bothering you?"
+      ]
+    },
+    {
+      "tag": "relationship",
+      "patterns": ["i had a breakup", "i miss her", "he left me", "heartbroken", "i love someone", "she cheated", "long distance"],
+      "responses": [
+        "Matters of heart are tough 💔 Wanna vent?",
+        "That sounds hard… wanna talk about it?",
+        "Sometimes letting go is healing. But I'm here.",
+        "Tell me more. Let’s sort your heart out 💕"
+      ]
+    },
+    {
+      "tag": "college",
+      "patterns": ["college sucks", "assignments due", "procrastinating", "exam stress", "late night studies", "bunked lectures"],
+      "responses": [
+        "College be wild fr 😂 Hang in there!",
+        "Want help planning your study? Or wanna crib more first? 😅",
+        "Assignments chasing you? Mood. Let’s sort that 💻",
+        "Let’s slay that exam stress together 💪"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell a joke", "make me laugh", "say something funny", "joke please"],
+      "responses": [
+        "Why don't skeletons fight each other? They don’t have the guts 😂",
+        "Your vibe is 100... but your WiFi? Not so much 😜",
+        "If we were in class, I'd pass you a chit just to make you smile 😁"
+      ]
+    },
+    {
+      "tag": "dreams",
+      "patterns": ["i want to be successful", "i have dreams", "i want to achieve something", "i feel lost"],
+      "responses": [
+        "You’ve got potential. Don’t let doubt dull your shine ✨",
+        "One step at a time. I believe in you 🫶",
+        "Lost is just another path to finding yourself.",
+        "Dreams demand hustle. And you’ve got it!"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["i feel lazy", "i cant do this", "i give up", "i’m tired of trying"],
+      "responses": [
+        "Rest, don’t quit 🛌 You’re stronger than you think.",
+        "Even slow steps move you forward 🐢 You got this!",
+        "Giving up ain’t your thing. I know that!",
+        "Take a break, not a U-turn 🚦"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks", "appreciate you", "thnx"],
+      "responses": [
+        "Always here for you 💛",
+        "You’re welcome, bestie!",
+        "Anytime, anytime 😇"
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": [],
+      "responses": [
+        "Hmm… that’s interesting! Tell me more?",
+        "Elaborate that a bit? I’m all ears 👂",
+        "Didn't catch that fully. Wanna explain?",
+        "Let’s vibe on this. Say more?"
+      ]
+    }
+  ]
+}
